@@ -1,4 +1,7 @@
 # 0p3n-s3s@m3
+<p align="center">
+  <img src="1782164163220.png" alt="Profile Image" width="400"/>
+</p>
 
 A concise, high-impact reference guide and toolkit dedicated to essential cybersecurity, reconnaissance, active penetration testing, and infrastructure hardening.
 
