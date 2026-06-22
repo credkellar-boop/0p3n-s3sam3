@@ -17,4 +17,3 @@ Essential rules for governing access keys, policies, and privileges within infra
     }
     ```
 * **Automated Credential Rotation:** Establish programmatic policies to audit and automatically deprecate user access keys older than 90 days.
-* 
