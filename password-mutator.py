@@ -22,4 +22,3 @@ for year in years:
 # Print unique results to stdout (can be redirected to a wordlist file)
 for item in set(mutations):
     print(item)
-  
