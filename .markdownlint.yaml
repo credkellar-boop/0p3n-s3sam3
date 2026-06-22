@@ -1,0 +1,9 @@
+# .markdownlint.yaml
+# Default rules
+default: true
+
+# Disable 80-character line length limit
+MD013: false
+
+# Alternatively, you can disable specific spacing rules if they are too noisy
+# MD041: false # Disables the requirement for a top-level heading on line 1
