@@ -1,0 +1,23 @@
+name: Lint Markdown Files
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Pull down the repository code into the runner environment
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Run a standard markdown linting tool over all directories
+      - name: Execute Markdown Lint Scan
+        uses: DavidAnson/markdownlint-cli2-action@v1
+        with:
+          globs: "**/*.md"
+          
