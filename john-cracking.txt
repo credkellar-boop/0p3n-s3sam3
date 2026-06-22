@@ -1,0 +1,18 @@
+John the Ripper (JTR) Quick Reference
+====================================
+
+1. Basic Automated Cracking Mode:
+john password_hashes.txt
+
+2. Wordlist / Dictionary Mode:
+john --wordlist=/usr/share/wordlists/rockyou.txt password_hashes.txt
+
+3. Check Current Session Progress:
+Press [Spacebar] or [Enter] while running, or type:
+john --status
+
+4. Show Successfully Cracked Passwords:
+john --show password_hashes.txt
+
+5. Target Specific Hash Formats:
+john --format=raw-md5 hashes.txt
