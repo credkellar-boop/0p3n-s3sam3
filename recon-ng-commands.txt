@@ -1,0 +1,22 @@
+# Recon-ng Workflow Template
+# Automated OSINT gathering for subdomains and data leaks
+
+# 1. Initialize the workspace
+workspace create target_domain
+
+# 2. Install required modules from the marketplace
+marketplace install recon/domains-hosts/brute_hosts
+marketplace install recon/domains-hosts/bing_domain_web
+
+# 3. Load the modules
+modules load recon/domains-hosts/brute_hosts
+
+# 4. Set the target domain
+options set SOURCE target.com
+
+# 5. Run the information gathering engine
+run
+
+# 6. View discovered data
+show hosts
+show subdomains
