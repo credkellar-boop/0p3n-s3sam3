@@ -11,8 +11,8 @@ High-performance hash cracking commands.
 | `5600` | NetNTLMv2 |
 
 ## Attack Modes (`-a`)
-*   `-a 0` : Straight / Wordlist
-*   `-a 3` : Brute-force / Mask
+* `-a 0` : Straight / Wordlist
+* `-a 3` : Brute-force / Mask
 
 ## Example Executions
 
