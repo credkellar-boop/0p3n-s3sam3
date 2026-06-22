@@ -12,4 +12,3 @@ Avoid fast algorithms like MD5, SHA-1, or SHA-256 for password storage. Instead,
 * **Argon2id:** The current industry standard for password hashing.
 * **bcrypt:** A highly reliable, time-tested option with an adjustable work factor.
 * **scrypt:** Designed to require significant memory resources, making hardware-parallelized cracking inefficient.
-* 
