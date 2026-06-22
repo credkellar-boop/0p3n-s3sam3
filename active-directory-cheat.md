@@ -12,3 +12,4 @@ net user /domain
 
 rem Locate high-privilege domain administrator identities
 net group "Domain Admins" /domain
+
