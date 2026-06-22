@@ -2,9 +2,46 @@
 
 A concise, high-impact reference guide and toolkit dedicated to essential cybersecurity, reconnaissance, active penetration testing, and infrastructure hardening.
 
-### Core Architecture
-🦀 | 🐍 | 🐋 | ☸️ | ☁️ | 🐧 | 🛡️ | ⚙️ 
+### Core Programming Languages, Core Systems
+![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Zig](https://img.shields.io/badge/-Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 
+### Platform Support & Hardware Architecture
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Debian](https://img.shields.io/badge/-Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+### Low-Level Infrastructure & Performance
+![eBPF](https://img.shields.io/badge/-eBPF-FFDD00?style=for-the-badge&logo=linux&logoColor=black)
+![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+
+### Cybersecurity & Offensive Auditing
+![Kali Linux](https://img.shields.io/badge/-Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/-Metasploit-1262D4?style=for-the-badge&logo=metasploit&logoColor=white)
+![Nmap](https://img.shields.io/badge/-Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white)
+
+### DevOps & Build Tools
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### Artificial Intelligence & Quantum
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Qiskit](https://img.shields.io/badge/-Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### Cloud Providers
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+ 
 ---
 
 ## What is this?
