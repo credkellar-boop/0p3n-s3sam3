@@ -6,5 +6,5 @@ Defensive programming techniques to ensure databases are protected against manip
 Always use prepared statements or parameterized queries rather than concatenating user input directly into SQL strings. This ensures the database interpreter treats input strictly as data, never as executable code.
 
 ### Vulnerable Code Concept (Do Not Use)
-```text
+```sql
 SELECT * FROM users WHERE username = 'INPUT_USER' AND password = 'INPUT_PASSWORD';
