@@ -23,3 +23,4 @@ ClientAliveCountMax 0
 
 # Explicitly limit access privileges to specific organizational accounts
 AllowUsers securityadmin automation_svc
+AllowUsers securityadmin automation_svc
